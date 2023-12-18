@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{ box-sizing: border-box;}
+
+img{ max-width: 100%;
+      height: auto;
+    }
+
+body{
+    /* height: 5804px; */
+    max-width: 1920px;
+    background-color: #020202;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #ffffff;
+}
+
+
+.all{
+    max-width: 67.5%;
+    margin: 0 auto;
+    /* height: 1080px; */
+}
+
+.all .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.all .header .logo{
+    margin-top:20px;
+    margin-bottom:20px;
+    max-width: 18.5%;
+  
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.title01{
+    display: flex;
+    flex-direction: column;
+}
+
+.title01 span{
+    font-size: 120px;
+    margin-top: 40px
+   
+   
+   
+}
+
+.start{
+    font-size:20px;
+    border-radius: 16px;
+    border: 1px solid #ffffff;
+    margin-top: 40px;
+    padding: 20px 40px;
+    width: 162px;
+    height: 64px;
+    box-sizing: border-box;
+}
+
+.imgg-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 160px;
+}
+
+
+.content{
+    max-width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.title02{
+    border: #020202 1px solid;
+    width: 414px;
+    height: 38px;
+    font-size: 32px;
+}
+
+.title03{
+    font-size: 48px;
+    border: #020202 1px solid;
+    width: 856px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.content1{
+    max-width: 416px;
+    max-height: px;
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fast{
+ 
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid var(--Black-80, #525252);
+    padding:40px ;
+    gap: 24px;
+}
+
+.fast .pic{
+    width: 80px;
+    height: 80px;
+    margin-top: 334px;
+}
+
+.fast .text1{
+    font-size: 32px;
+    width: 64px;
+    height: 38px;
+}
+
+.fast .text2{
+    font-size: 16px;
+    width: 336px;
+}
+
+.content2{
+    font-size: 32px;
+    margin-top: 200px;
+    
+}
+
+
+
+.title3 { display: flex;
+    justify-content: center;
+
+}
+
+li .pic3{
+    width: 160px;
+    height: 40px;
+}
+
+.title4{ display: flex;
+    justify-content: center;
+}
+
+li .pic4{
+    width: 160px;
+    height: 40px;
+    margin-top: 80px;
+}
+
+.item1{
+    max-height: 400px;
+    max-width: 416px;
+    margin-bottom: 20px;
+}
+
+.item2{
+    max-width: 336px;
+    max-height: 215px;
+    font-size: 16px;
+}
+
+.item3{
+    margin-top:20px ;
+}
+
+.name{
+    font-size: 16px;
+}
+
+.company{
+    font-size: 14px;
+}
+
+.content3{
+    border-radius: 16px;
+background: rgba(255, 255, 255, 0.08);
+max-width: 100%;
+border: 1px solid black;
+display: flex;
+gap: 24px;
+margin-top: 160px;
+}
+
+.content2 p{
+    margin-bottom: 60px;
+}
+
+.content5{
+    max-width: 100%;
+    background: #fff;
+}
+
+.content5 p{
+    color: #020202;
+    font-size: 80px;
+    border-radius: 160px;
+    border: 1px solid #fff;
+}
